@@ -10,10 +10,10 @@ def is_sum(arr,n):
                 if arr[l]+arr[h]==add :
                     print(arr[i] , arr[l] , arr[h], sep=" ")
                     return 
+                
                 else:
-                    l+=1
                     h-=1
-
+            
 #driver code 
 value=int(input("Enter the number of integers in the array :"))
 arr=[0]*value 
