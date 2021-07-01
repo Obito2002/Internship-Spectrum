@@ -13,6 +13,7 @@ def is_sum(arr,n):
                 
                 else:
                     h-=1
+
             
 #driver code 
 value=int(input("Enter the number of integers in the array :"))
@@ -21,3 +22,4 @@ for i in range (value):
     arr[i]=int(input())
 k=int(input("Enter the value of k :"))
 is_sum(arr,k)
+
